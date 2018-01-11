@@ -1,0 +1,51 @@
+V 1.1 ChangeLog
+---------------
+
+
+----NEW FEATURES----
+
+-> 	Animation types are now calculated in localSpace!
+	(except for: FollowTarget, LookAtTarget and LookAlongCurve because that would make no sense)
+	This way you the animation is rotated with the parent, which is the expected behaviour.
+	The whole movement and rotation system is now much more flexible!
+
+->	Created a new type of follow target animation, you can control the maximum velocity, acceleration and the snap range
+	This type works better over long distances, since it has a limited velocity
+
+->	New rotation type LookAlongCurve has been added!
+
+->	You can now rotate the perlin noise bounds by rotating the parent object!
+	(makes more sense than using the actual objects rotation, because its rotation is possibly animated as well)
+
+->	The world space / local space option was a bit unintuitive when used in stacked animations
+	Now you can use the option "Use Position as Offset" to maintain the default position during the animation
+
+->	Removed the use Parent option, because it was unnecessary. Everything works as you would expect.
+
+
+----BUG FIXES----
+
+->	Default object positions are saved, even if the scripts recompile at runtime
+
+->	Handles of Bezier Curve points are now calculated in the local space of the curve object
+	This way you can rotate and scale whole curves as expected, without having to tweak the handles
+
+-> 	Fixed a bug, where the child object changed its default position every time the simulation stops
+
+->	Fixed the Unity Console Warning about MovementPlusWindow class
+
+->	Everything moved into the MovementPlus namespace to avoid conflicts
+
+->	Changed logo file name to avoid conflicts and fixed continuos logo loading
+
+->	Some performance improvements
+
+
+----FUTURE PLANS----
+
+->	Implement constant velocity for bezier curves
+
+-> 	More features for the MovementPlus Window (but I have no ideas yet)
+
+->	Follow target animation type with a direction, velocity, acceleration and turning speed that moves physically accurate
+	(steers like a spaceship)

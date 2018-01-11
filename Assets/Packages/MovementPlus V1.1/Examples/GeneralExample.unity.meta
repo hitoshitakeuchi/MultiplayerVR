@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 2a288d79adaa5c94c852e157547d1e99
+labels:
+- LinearMove
+- SineMove
+- CircularMove
+- PerlinNoiseMove
+- CurveSplineMove
+- FollowTarget
+- LinearRotate
+- LookatTarget
+timeCreated: 1473111443
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: a2e12ccd0defaae4a956b28dcba8c650
+labels:
+- CameraFlight
+- CircularMove
+- CurveSplineMove
+- StackAnimations
+timeCreated: 1472992059
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

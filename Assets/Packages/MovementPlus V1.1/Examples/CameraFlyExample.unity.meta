@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 80361338b957d8e4887a6ab60fe3d394
+labels:
+- CameraFlight
+- SineMove
+- CircularMove
+- PerlinNoiseMove
+- CurveSplineMove
+- BezierCurve
+timeCreated: 1473111423
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
